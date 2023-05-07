@@ -7,7 +7,7 @@ RUN pip install psycopg2
 RUN pip install shillelagh[gsheetsapi]
 
 RUN pip install psycopg2-binary
-
+RUN pip install --no-cache redis gevent
 # Switching back to using the `superset` user
 USER superset
 
