@@ -27,9 +27,9 @@ sudo docker exec -it $CONTAINER_NAME superset db upgrade
 
 echo -e "\e[1;32m DATABASE UPGRADED! \e[0m"
 
-sudo docker exec -it $CONTAINER_NAME superset load_examples
+#sudo docker exec -it $CONTAINER_NAME superset load_examples
 
-echo -e "\e[1;32m EXAMPLES LOADED! \e[0m"
+#echo -e "\e[1;32m EXAMPLES LOADED! \e[0m"
 
 sudo docker exec -it $CONTAINER_NAME superset init
 
